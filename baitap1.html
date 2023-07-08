@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bai tap 1</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <style>
+
+    .container {
+        background-color: rgb(102, 107, 134);
+        
+        color:white;
+    }
+    .flex-container {
+      display: flex;
+      flex-direction: row;
+      border-bottom: 1px solid rgb(181, 161, 161);
+      padding:15px;
+    }
+
+
+    .danh-sach2 {
+      display: flex;
+      list-style-type: none;
+      letter-spacing: 20px;
+      font-size: 25px;}
+
+      .flex-2 {
+        flex-basis:400px;
+        
+      }
+      .flex-1 {
+        flex: basis 350px;
+      }
+
+    .item1 {
+        width:25px;
+        margin: 5px;
+        padding:5px;
+        background-color: #e6e8ee;
+    }
+    .item2 {
+        width:25px;
+        margin: 5px;
+        padding:5px;
+        background-color: #c66c1e;
+    }
+    .item3 {
+        width:25px;
+        margin: 5px;
+        padding:5px;
+        background-color: #051e79;
+    }
+    .item4 {
+        width:25px;
+        margin: 5px;
+        padding:5px;
+        background-color: #637ddd;
+    }
+    .cuoi-trang {
+        text-align: center;
+        padding:10px;
+    }
+  </style>
+  <body>
+    <footer class="container">
+      <div class="flex-container">
+        <div class="flex-1">
+          <h3>About Us</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga labore
+            aperiam minima totam dolorem!
+          </p>
+        </div>
+
+        <div class="flex-2">
+          <h3>QuickLinks</h3>
+          <ul>
+            <li>Home</li>
+            <li>Service</li>
+            <li>Appointment</li>
+          </ul>
+        </div>
+        <div class="flex-2">
+          <h3>Follow us</h3>
+          <ul class="danh-sach2">
+            <li class="item item1">
+              <i class="fa-brands fa-facebook" style="color: #778cdf"></i>
+            </li>
+            <li class="item item2">
+              <i class="fa-brands fa-google-plus-g"></i>
+            </li>
+            <li class="item item3"><i class="fa-solid fa-info"></i></li>
+            <li class="item item4"><i class="fa-brands fa-twitter"></i></li>
+          </ul>
+        </div>
+      </div>
+      <div class="cuoi-trang"">
+        <p>Copyright Hoc Web Chuan All Right Reversed</p>
+      </div>
+    </footer>
+  </body>
+</html>
